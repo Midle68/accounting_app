@@ -152,7 +152,8 @@ class Menu:
                                              message="Введите количество счетов с остатками.")
                     else:
                         check_ops()
-                else:
+                elif not accounts_remains_var.get():
+                    self.remains_rows = 0
                     check_ops()
 
         def check_remains_var():  # Изменение состояния поля для ввода - disabled и normal - для "остатки на счетах"
@@ -174,7 +175,7 @@ class Menu:
         ops_entry = Entry(self.global_frame)
         ops_entry.grid(row=2, column=6, columnspan=6)
 
-        # Создание Frame для введения 'pady' для обоих элементов относительно других #
+        # Создание Frame для введения 'pady' для обоих элементов относительно других
         remains_frame = Frame(self.global_frame, pady=20)
         remains_frame.grid(row=3, column=0, columnspan=12)
 
@@ -238,5 +239,5 @@ class Menu:
             if num == 1:
                 widget_list[num].config(text=headline)
             elif num > 1:
-                # Все остальные виджеты удаляются #
+                # Все остальные виджеты удаляются
                 widget_list[num].destroy()

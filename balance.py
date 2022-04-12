@@ -300,6 +300,7 @@ class Balance:
             assets_result_btn = Button(balance_frame, text="Посчитать",
                                        command=lambda: self.calculate_end_result(active_or_passive="Active"))
             assets_result_btn.grid(row=self.row, column=self.starting_column + 1)
+            add_result_entries()
 
             self.starting_column = 5
             self.row -= 1

@@ -34,5 +34,10 @@
 
 from menu import Menu
 
-menu = Menu()
-menu.create_starting_gui()
+def main():
+    menu = Menu()
+    menu.create_starting_gui()
+
+
+if __name__ == '__main__':
+    main()

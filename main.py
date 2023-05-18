@@ -34,6 +34,7 @@
 
 from menu import Menu
 
+
 def main():
     menu = Menu()
     menu.create_starting_gui()

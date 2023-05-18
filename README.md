@@ -1,5 +1,15 @@
 # Приложение для решения задач по бухгалтерскому учету.
 
+**Изображения программы:**
+
+<img width="300" alt="Снимок экрана 2023-05-18 в 09 37 07" src="https://github.com/Midle68/accounting_app/assets/88423574/f444a06e-43b6-436a-bf91-6a14f87c9c35">
+<img width="300" alt="Снимок экрана 2023-05-18 в 09 37 12" src="https://github.com/Midle68/accounting_app/assets/88423574/da8477c6-8e8f-4ad0-9289-347035e8f1ad">
+<img width="300" alt="Снимок экрана 2023-05-18 в 09 37 46" src="https://github.com/Midle68/accounting_app/assets/88423574/299c5854-40b6-4bf8-a5c0-71eb0ae4f3d4">
+<img width="300" alt="Снимок экрана 2023-05-18 в 09 37 40" src="https://github.com/Midle68/accounting_app/assets/88423574/f5ab8d32-48be-4806-8adc-eebaeafd722d">
+<img width="300" alt="Снимок экрана 2023-05-18 в 09 37 17" src="https://github.com/Midle68/accounting_app/assets/88423574/f02cf4b3-005f-413d-860e-65a6d137a63f">
+
+-----
+
 Данное приложение позволяет решать некоторые из задач по бухгалтерскому учету. 
 Оно позволяет выполнять следующее:
 1) **Баланс**
